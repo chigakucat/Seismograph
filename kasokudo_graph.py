@@ -62,7 +62,7 @@ while True:
         rc_values[i] = rc_values[i]*0.94+adc_values[i][adc_ring_index]*0.06
         axis_gals[i] = (rc_values[i] - offset) * ad2gal
 
-    # 0.1秒おきに出力
+    # 0.01秒おきに出力
     plt.cla()
     Y.append(axis_gals[0])
     Y1.append(axis_gals[1])
@@ -76,7 +76,7 @@ while True:
     plt.plot(X, Y2)
     plt.ylim(-30, 30)
     plt.xlim(xlim[0], xlim[1])
-    plt.pause(.0001)
+    plt.pause(0.01)
     print(datetime.datetime.now(), "acceleration:" , axis_gals[0], axis_gals[1], axis_gals[2]," frame:", frame)
     # 次フレームの開始時間を計算
     frame += 1
