@@ -40,7 +40,6 @@ a_values = [0] * target_fps * 5
 adc_ring_index = 0
 a_ring_index = 0
 
-# リアルタイム震度計算 -----
 while True:
     # リングバッファ位置計算
     adc_ring_index = (adc_ring_index + 1) % target_fps
