@@ -9,3 +9,6 @@ https://www.p2pquake.net/dev/rpi_seismometer/calculate/
 https://github.com/p2pquake/rpi-seismometer
 
 これにkasokudo.pyという3軸それぞれの加速度を表示、記録するためのプログラムを追加しました。
+
+## グラフ生成用のプログラム
+Pythonでいい感じにグラフを作成してくれるものを作った
