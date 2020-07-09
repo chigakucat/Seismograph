@@ -4,7 +4,7 @@ Raspberry Piで作る自作地震計のコード置場
 data_dump.shに出てくるshindというものは、今回作った自作コマンドを指しています。必要があれば適宜変更してください。中身は以下の通りです。
 ```sh
 #!/bin/bash
-python /home/pi/rpi-seismometer/kasokudo.py >> /home/pi/rpi-seismometer/kasokudo.csv
+python ~/rpi-seismometer/kasokudo.py >> ~/rpi-seismometer/kasokudo.csv
 ```
 
 ## kasokudo.py
@@ -12,7 +12,7 @@ python /home/pi/rpi-seismometer/kasokudo.py >> /home/pi/rpi-seismometer/kasokudo
 ```sh
 python ~/Seismograph/kasokudo.py >> ~/rpi-seismometer/kasokudo.csv 
 ```
-とすると、kasokudo.csvにただひたすら書き込まれます。
+とすると、kasokudo.csvに出力がただひたすら書き込まれます。
 
 ## kasokudo_graph.py
 加速度のデータからリアルタイムでグラフを描画するプログラム。
