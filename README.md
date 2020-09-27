@@ -1,7 +1,7 @@
 # Seismograph
 Raspberry Piで作る自作地震計のコード置場
 
-data_dump.shに出てくるshindというものは、今回作った自作コマンドを指しています。必要があれば適宜変更してください。中身は以下の通りです。
+data_dump.shに出てくるshindというものは、今回作った自作コマンドを指しています。必要があれば適宜変更してください (Pathなど。中身は以下の通りです。
 ```sh
 #!/bin/bash
 python ~/Seismograph/kasokudo.py >> ~/Seismograph/kasokudo.csv
