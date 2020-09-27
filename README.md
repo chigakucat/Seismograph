@@ -10,7 +10,7 @@ python ~/Seismograph/kasokudo.py >> ~/Seismograph/kasokudo.csv
 ## kasokudo.py
 加速度をただひたすら吐き出すプログラム。
 ```sh
-python ~/Seismograph/kasokudo.py >> ~/rpi-seismometer/kasokudo.csv 
+python ~/Seismograph/kasokudo.py >> ~/Seismograph/kasokudo.csv 
 ```
 とすると、kasokudo.csvに出力がただひたすら書き込まれます。
 
