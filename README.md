@@ -13,6 +13,7 @@ python ~/Seismograph/kasokudo.py >> ~/Seismograph/kasokudo.csv
 python ~/Seismograph/kasokudo.py >> ~/Seismograph/kasokudo.csv 
 ```
 とすると、kasokudo.csvに出力がただひたすら書き込まれます。
+python3だと想定通りに動かないので、今後改善します。
 
 ## data_dump.sh
 データを１日の終わりに日付付きのファイルに切り分けるプログラム。
