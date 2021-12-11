@@ -2,10 +2,9 @@
 
 cd `dirname $0`
 cd rpi-seismometer
-pkill -f ~/rpi-seismometer/seismic_scale.py
-pkill shind
+pkill -f ~/Seismograph/kasokudo_py3.py
 sleep 1
 mv shind.csv shind_data_$(date +%Y%m%d).csv
 touch shind.csv
 sleep 1
-shind
+python ~/Seismograph/kasokudo_py3.py >> kasokudo.csv
