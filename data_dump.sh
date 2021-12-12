@@ -7,4 +7,4 @@ sleep 1
 mv shind.csv shind_data_$(date +%Y%m%d).csv
 touch shind.csv
 sleep 1
-python ~/Seismograph/kasokudo_py3.py >> kasokudo.csv
+python3 ~/Seismograph/kasokudo_py3.py >> kasokudo.csv
