@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd `dirname $0`
-cd rpi-seismometer
+cd Seismograph
 sudo pkill -f ~/Seismograph/kasokudo_py3.py
 sleep 1
 mv kasokudo.csv kasokudo_data_$(date +%Y%m%d).csv
