@@ -10,4 +10,4 @@ https://github.com/p2pquake/rpi-seismometer
 
 これをもとにkasokudo.pyという3軸それぞれの加速度を表示・記録するためのプログラムやリアルタイムグラフ描画のプログラムを追加しました。
 
-また、graphdraw.pyを新規追加しました
+また、graphdraw.pyを独自で作成しましたので、そちらを新規追加しました
