@@ -1,1 +1,2 @@
 59 23 * * * sh ~/Seismograph/data_dump.sh
+
