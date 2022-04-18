@@ -59,7 +59,7 @@ while True:
         axis_gals[i] = (rc_values[i] - offset) * ad2gal
 
     if frame % (target_fps / 10) == 0:
-        print(datetime.datetime.now(), "," , axis_gals[0], "," ,axis_gals[2], "," , axis_gals[3], ",", "frame:", ",", frame)
+        print(datetime.datetime.now(), "," , axis_gals[0], "," ,axis_gals[2], "," , axis_gals[1], ",", "frame:", ",", frame)
     time.sleep(0.001)
     # 次フレームの開始時間を計算
     frame += 1
